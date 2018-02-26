@@ -60,3 +60,57 @@
 (define x (list 2 4 6 8 10))
 (define y (list 1 2 3 4 5))
 (inter x y)
+
+;Question 6
+;========================================
+(define (noatoms x)
+  (if (null? x)
+      0
+      (+ 1 ( noatoms (cdr x)))))
+
+(define a (list 1 2 3 4 5))
+(noatoms a )
+
+;Question 7
+;========================================
+;n is always increasing and therfore will never finish, it
+;causes program to run out of memory.
+;(define (forever n)
+;  (if (= n 0)
+;      1
+;      (+ 1 (forever n))))
+;
+;(forever 2)
+
+;Question 8
+;========================================
+(define (range n)
+    (define (loop i)
+      (if (= i n)
+          '()
+          (cons (+ i 1) (loop (+ i 1)))))
+    (loop 0))
+
+ (range 8)
+
+;Question 9
+;========================================
+(define (reversel n)
+  (if (= n 0)
+      null
+      (cons n (reversel (- n 1)))))
+
+(reversel 8)
+
+;Question 10
+;========================================
+(define (sum-multiples a b end)
+  (define (sum-of-multiple x)
+    (for/fold ((sum 0))
+              ((i (in-range 0 end x)))
+    (+ sum i)))
+  (-(+(sum-of-multiple a)(sum-of-multiple b))
+    (sum-of-multiple (lcm a b))))
+  
+       
+(sum-multiples 3 5 1000)
