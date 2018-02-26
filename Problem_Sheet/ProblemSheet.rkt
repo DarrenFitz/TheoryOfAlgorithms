@@ -114,3 +114,54 @@
   
        
 (sum-multiples 3 5 1000)
+
+;Question 11
+;========================================
+
+
+;Question 12
+;========================================
+;Used this example online - https://gist.github.com/kyupark/1377153
+(define (fibo n)
+  (cond
+    ((= n 0) 1)
+    ((= n 1) 1)
+    (true (+ (fibo (- n 1)) (fibo (- n 2))))
+    )
+  )
+
+(fibo 4)
+
+;Change to add only evens numbers
+(define (sumofint n)
+  (cond
+    ((= n 0) 0)
+    (true (+ (sumofint (- n 1)) n))
+    )
+  )
+
+(sumofint 5)
+
+
+;Question 13
+;========================================
+(define (to-binary x)
+  (if (= x 0)
+  null
+  (cons (modulo x 2) (to-binary (/ (- x (modulo x 2)) 2)) )))
+
+(to-binary 9)
+(to-binary 23)
+
+;Question 14
+;========================================
+(define (select x y)
+  (if (= y 0)
+      (car x)
+      (select (cdr x)(- y 1))))
+
+(select (list 1 2 3 4 5) 0)
+
+;Question 15
+;========================================
+
