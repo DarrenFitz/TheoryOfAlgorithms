@@ -4,7 +4,7 @@
 and returns a list by recursively applying the following operation, starting with the
 input number.
 
-End the recursion when (or if) the number becomes 1. Call the function collatz-list.
+	End the recursion when (or if) the number becomes 1. Call the function collatz-list.
 So, collatz-list should return a list whose first element is n0, the second element
 is n1, and so on. 
 
