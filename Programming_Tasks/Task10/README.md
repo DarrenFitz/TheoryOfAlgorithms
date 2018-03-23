@@ -1,6 +1,6 @@
 ## Task 10
 
-<p><img src="Resources/10.png width="816" height="284"></p>
+<p><img src="Resources/10.png" width="816" height="284"></p>
 
 
 

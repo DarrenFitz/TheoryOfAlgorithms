@@ -1,6 +1,6 @@
 ## Task 2
 
-<p><img src="Resources/2.png width="820" height="384"></p>
+<p><img src="Resources/2.png" width="820" height="384"></p>
 
 
 ### What is Collatz conjecture? 

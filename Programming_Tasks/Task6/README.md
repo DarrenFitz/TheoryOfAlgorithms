@@ -1,6 +1,6 @@
 ## Task 6
 
-<p><img src="Resources/6.png width="814" height="128"></p>
+<p><img src="Resources/6.png" width="814" height="128"></p>
 
 
 ### What is Hamming Distance? 

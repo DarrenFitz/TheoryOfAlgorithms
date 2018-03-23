@@ -1,6 +1,6 @@
 ## Task 6
 
-<p><img src="Resources/8.png width="854" height="157"></p>
+<p><img src="Resources/8.png" width="854" height="157"></p>
 
 
 ### Solution

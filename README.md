@@ -14,8 +14,8 @@ Racket is a general purpose, multi-paradigm programming language in the Lisp-Sch
 3. Open DrRacket, open any .rkt file and run `Ctrl + R`
 
 ## List of tasks provided by our lecturer Dr. Ian McLoughlin
-<p><img src="Resources/problems1.png width="465" height="701"></p>
-<p><img src="Resources/problems2.png width="469" height="703"></p>
+<p><img src="Resources/problems1.png" width="465" height="701"></p>
+<p><img src="Resources/problems2.png" width="469" height="703"></p>
 
 ## References
 * [Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)

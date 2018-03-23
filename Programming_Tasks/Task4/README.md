@@ -1,6 +1,6 @@
 ## Task 4
 
-<p><img src="Resources/4.png width="805" height="238"></p>
+<p><img src="Resources/4.png" width="805" height="238"></p>
 
 
 ### Combinations Function? 
