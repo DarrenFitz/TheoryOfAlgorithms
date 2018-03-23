@@ -1,18 +1,6 @@
 ## Task 2
 
-2. Write, from scratch, a function in Racket that takes a positive integer n0 as input
-and returns a list by recursively applying the following operation, starting with the
-input number.
-
-	End the recursion when (or if) the number becomes 1. Call the function collatz-list.
-So, collatz-list should return a list whose first element is n0, the second element
-is n1, and so on. 
-
-**Example:**
-(collatz-list 5)
-
-**Result:**
-'(5 16 8 4 2 1)
+<p><img src="Resources/2.png width="820" height="384"></p>
 
 
 ### What is Collatz conjecture? 

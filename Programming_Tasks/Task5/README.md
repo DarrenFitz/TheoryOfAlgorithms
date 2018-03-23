@@ -1,12 +1,6 @@
 ## Task 5
 
-5. Write a function hamming-weight in Racket that takes a list l as input and returns the number of non-zero elements in it.
-
-**Example:**
-(hamming-weight (list 1 0 1 0 1 1 1 0))
-
-**Result:**
-5
+<p><img src="Resources/5.png width="834" height="136"></p>
 
 
 ### What is Hamming Weight? 

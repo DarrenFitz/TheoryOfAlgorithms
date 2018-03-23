@@ -1,12 +1,6 @@
 ## Task 6
 
-6. Write a function hamming-distance in Racket that takes two lists and returns the number of positions in which they differ.
-
-**Example:**
-(hamming-distance (list 1 0 1 0 1 1 1 0) (list 1 1 1 1 0 0 0 0))
-
-**Result:**
-5
+<p><img src="Resources/6.png width="814" height="128"></p>
 
 
 ### What is Hamming Distance? 

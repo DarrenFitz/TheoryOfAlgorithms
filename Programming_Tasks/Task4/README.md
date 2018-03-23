@@ -1,15 +1,6 @@
 ## Task 4
 
-4. Write a function sublsum in Racket that takes a list (of integers) as input and returns
-a list of sublists of it that sum to zero. For this problem, you can use the
-combinations built-in function. Note the order of the sublists and their elements
-doesn’t matter 
-
-**Example:**
-(sublsum (list 1 2 3 4 -5))
-
-**Result:**
-'((2 3 -5) (-5 1 4))
+<p><img src="Resources/4.png width="805" height="238"></p>
 
 
 ### Combinations Function? 
