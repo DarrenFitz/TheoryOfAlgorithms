@@ -1,6 +1,6 @@
 ## Task 6
 
-<p><img src="Resources/6.png" width="814" height="128"></p>
+<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/6.PNG" width="814" height="128"></p>
 
 
 ### What is Hamming Distance? 

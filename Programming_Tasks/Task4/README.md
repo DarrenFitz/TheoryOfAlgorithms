@@ -1,6 +1,6 @@
 ## Task 4
 
-<p><img src="Resources/4.png" width="805" height="238"></p>
+<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/4.PNG" width="805" height="238"></p>
 
 
 ### Combinations Function? 

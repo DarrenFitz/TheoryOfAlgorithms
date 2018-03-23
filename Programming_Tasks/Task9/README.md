@@ -1,6 +1,6 @@
 ## Task 9
 
-<p><img src="Resources/9.png" width="855" height="187"></p>
+<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/9.PNG" width="855" height="187"></p>
 
 
 
@@ -18,4 +18,4 @@
 
 ```
 
-## References
+

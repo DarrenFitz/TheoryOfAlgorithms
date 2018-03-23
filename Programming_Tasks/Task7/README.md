@@ -1,6 +1,6 @@
 ## Task 7
 
-<p><img src="Resources/7.png" width="851" height="158"></p>
+<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/7.PNG" width="851" height="158"></p>
 
 
 ### Approach? 

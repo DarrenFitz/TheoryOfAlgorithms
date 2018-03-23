@@ -1,6 +1,6 @@
 ## Task 3
 
-<p><img src="Resources/3.png" width="808" height="240"></p>
+<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/3.PNG" width="808" height="240"></p>
 
 
 ### Solution

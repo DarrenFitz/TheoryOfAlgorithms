@@ -1,6 +1,6 @@
 ## Task 10
 
-<p><img src="Resources/10.png" width="816" height="284"></p>
+<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/10.PNG" width="816" height="284"></p>
 
 
 
@@ -14,5 +14,3 @@
 
 ```
 
-## References
-* [Hamming Distance](https://en.wikipedia.org/wiki/Hamming_distance)
