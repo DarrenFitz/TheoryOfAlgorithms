@@ -8,8 +8,20 @@ In computer science, brute-force search or exhaustive search, also known as gene
 ### What is a prime Number?
 A number that is divisible only by itself and 1 (e.g. 2, 3, 5, 7, 11).
 
+###Algorithm
+Applying forementioned knowledge we need to make an algorithm that decide if a number is a prime. A basic brute algorithm of diving number by two repeatedly until remainder is either 1 or zero is an method. I will differ an use another approach. There are a few other [primality tests](https://en.wikipedia.org/wiki/Primality_test ) that can be used, but this method is sufficient.
+
+### Approach
+* We created decide-prime function that took a single positive integer and returned #T if prime, otherwise #F.
+* The indivisible-by function recursively applies the math to check if the input is divisible any number other than itself of 1.
+* Recursively check each number is not divisible into x(input) starting at x and decreasing by 1 each time.
+* If there is a denominator other than itself or 1, return #F, else #T.
+* Exclude 1 as prime and return #F
+
 ### Solution
+Comments are in task1.rkt file.
 ```Racket
+;Decide-Prime function to check if number is prime
 (define (decide-prime x)
   (define (indivisible-by a b)
     (cond
@@ -25,3 +37,4 @@ A number that is divisible only by itself and 1 (e.g. 2, 3, 5, 7, 11).
 ## References
 * [Bruce Force Algorithm](https://en.wikipedia.org/wiki/Brute-force_search)
 * [Adapted Solution From Here](https://stackoverflow.com/questions/3345626/finding-a-prime-number-in-scheme-using-natural-recursion?rq=1)
+* [Primality tests](https://en.wikipedia.org/wiki/Primality_test)

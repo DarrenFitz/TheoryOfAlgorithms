@@ -1,6 +1,6 @@
 ## Task 5
 
-<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/5.PNG width="834" height="136"></p>
+<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/5.PNG" width="834" height="136"></p>
 
 
 ### What is Hamming Weight? 
