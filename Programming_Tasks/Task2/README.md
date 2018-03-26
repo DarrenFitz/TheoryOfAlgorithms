@@ -2,11 +2,10 @@
 
 <p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/2.PNG" width="820" height="384"></p>
 
-
 ### What is Collatz conjecture? 
 The Collatz conjecture is a conjecture in mathematics that concerns a sequence defined as follows: start with any positive integer n. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. Otherwise, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1.
 
-###Algorithm
+### Algorithm for Task
 How this notation is applied to our input:
 
 * Start with our positive inter next n 
@@ -16,13 +15,14 @@ How this notation is applied to our input:
 
 <p align="center"><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/collatz.PNG" width="663" height="127"></p>
 
-###Approach
+### Approach
 * Start with function collatz-list that take in positive integer and applies the notation sequence
 * If 1 output '(1), the end point of recursion.
 * If odd add x to new list, call recursive function on the sum x multiply by 3 add 1. 
 * Else add x to new list, call recursive function on the sum x divided 2. 
 
 ### Solution
+`All Comments are in [task3.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task3/task3.rkt) file.`
 ```Racket
 (define (collatz-list x)
   (cond
