@@ -13,7 +13,7 @@ This task I need two functions to shift a list cyclically(circularly) to the lef
 
 **Cycle right:** This is similar to lcycle but i will have to reverse the string to get the last element. Add it to front of list and append the re-reversed list. I will need a reverse function.
 
-### Approach
+### Approach?
 * Create function myAppend that can append two lists by recursively joining(cons) first element(car) of lst1 to a new list, before adding lst2.
 * I use lcycle to append the first letter(car) to the rest(cdr) of list
 * The function myReverse appends first(car) element to new list then recursively does the same with rest of list(cdr)
@@ -22,7 +22,7 @@ This task I need two functions to shift a list cyclically(circularly) to the lef
 * `'(1 2 3 4)` => reverse => `'(4 3 2 1)` => apply lcycle => `'(3 2 1 4)` => reverse => `'(4 1 2 3)`
 
 ### Solution
-`All Comments are in [task3.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task3/task3.rkt) file.`
+All Comments are in [task3.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task3/task3.rkt ) file.
 ```Racket
 ;Create myAppend function to to append two lists together
 (define (myAppend lst1 lst2)

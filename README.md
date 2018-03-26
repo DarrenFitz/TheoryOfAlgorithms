@@ -1,5 +1,6 @@
 # Theory of Algorithms
-This repository contains exercises as part of my course for the module Theory of Algorithms. This module focused on functional programming and all exercises were completed using [Racket programming language](https://racket-lang.org/).   
+#### *Theory of Algorithms - (Hons) Software Development - Lecturer: [Dr. Ian McLoughlin](https://ianmcloughlin.github.io/). *
+This repository contains exercises as part of my course for the module Theory of Algorithms. As part of continuous assessment I had to complete programming tasks found [here](https://github.com/DarrenFitz/TheoryOfAlgorithms/tree/master/Programming_Tasks).  This module focused on functional programming and all exercises were completed using [Racket programming language](https://racket-lang.org/).
 
 ## What is Functional Programming?
 Functional programming is the process of building software by composing pure functions, avoiding shared state, mutable data, and side-effects. Functional programming is declarative rather than imperative, and application state flows through pure functions. Contrast with object oriented programming, where application state is usually shared and colocated with methods in objects.

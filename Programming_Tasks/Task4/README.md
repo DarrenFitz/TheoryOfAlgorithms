@@ -8,13 +8,13 @@ Return a list of all combinations of elements in the input list (aka the powerse
 ### Algorithm for Task
 As we are allowed to use the built-in combination feature I will need another function be able to sum the elements of its sublists. The sublsum function will loop through and return any sublist where its elements sum to 0.
 
-### Approach
+### Approach?
 * Create mySum function that sums first element(car) to next first element of the rest of list(cdr) using recursive function.
 * The sublsum function uses a for loop to check if any sublist sum to zero calling the summed values from mySum
 * Sublist is printed if any sublist sums to 0.
 
 ### Solution
-`All Comments are in [task4.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task4/task4.rkt) file.`
+All Comments are in [task4.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task4/task4.rkt ) file.
 ```Racket
 ;mySum Function
 ;used to sum elements in each sublist

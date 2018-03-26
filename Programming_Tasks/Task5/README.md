@@ -9,14 +9,14 @@ The Hamming weight of a string is the number of symbols that are different from 
 ### Algorithm for Task
 For this algorithm it's relatively straight forward, I need to recursively check each number in the list and check if they are not 0, therefore they are 1 and increment by +1. When list has been checked out put one.
 
-###
+### Approach?
 * Check list is empty if so out put 0
 * Check that the answer is not = 0, incrementally add 1 and recursively call function on rest(cdr) of list to be checked
 * If not move to next element by call recursive function of cdr of l.
 * At the end of the list return the value.
 
 ### Solution
-`All Comments are in [task5.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task5/task5.rkt) file.`
+All Comments are in [task5.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task5/task5.rkt ) file.
 ```Racket
 ;Hamming-weight Function
 ;Used to return number of non-zero elements in list

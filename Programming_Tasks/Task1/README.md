@@ -11,7 +11,7 @@ A number that is divisible only by itself and 1 (e.g. 2, 3, 5, 7, 11).
 ### Algorithm for Task
 Applying forementioned knowledge I need to make an algorithm that decide if a number is a prime. A basic brute algorithm of diving number by two repeatedly until remainder is either 1 or zero is an method. I will differ an use another approach. There are a few other [primality tests](https://en.wikipedia.org/wiki/Primality_test ) that can be used, but this method is sufficient.
 
-### Approach
+### Approach?
 * I created decide-prime function that took a single positive integer and returned #T if prime, otherwise #F.
 * The indivisible-by function recursively applies the math to check if the input is divisible any number other than itself of 1.
 * Recursively check each number is not divisible into x(input) starting at x and decreasing by 1 each time.
@@ -19,7 +19,7 @@ Applying forementioned knowledge I need to make an algorithm that decide if a nu
 * Exclude 1 as prime and return #F
 
 ### Solution
-`All Comments are in [task1.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task1/task1.rkt) file.`
+All Comments are in [task1.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task1/task1.rkt ) file.
 ```Racket
 ;Decide-Prime function to check if number is prime
 (define (decide-prime x)
