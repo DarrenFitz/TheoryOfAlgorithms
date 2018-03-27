@@ -12,8 +12,8 @@ For this algorithm, we need to get remainder of the sum of corresponding element
 * If answer is 1 its odd, then add(cons) 0 to list and recurse to next element(cdr).
 
 ### Solution
-```Racket
 All Comments are in [task9.rkt](https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Programming_Tasks/Task9/task9.rkt ) file.
+```Racket
 ;Function sod2 that takes 3 lists
 (define (sod2 x y z)
   (cond [(null?  x) '()]
