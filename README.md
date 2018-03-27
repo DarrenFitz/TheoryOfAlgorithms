@@ -30,12 +30,11 @@ Most computer programming languages support recursion by allowing a function to 
 1. Download Racket [here](http://racket-lang.org/download/).
 2. Download repository or clone `https://github.com/DarrenFitz/TheoryOfAlgorithms`.
 3. Open DrRacket, open any .rkt file and run `Ctrl + R`
-
-* For convenience I made single folder with all tasks 1-10 together called [AllTasks](https://github.com/DarrenFitz/TheoryOfAlgorithms/tree/master/Programming_Tasks/AllTasks).
+4. For convenience I made single folder with all tasks 1-10 together called [AllTasks](https://github.com/DarrenFitz/TheoryOfAlgorithms/tree/master/Programming_Tasks/AllTasks).
 
 ## List of tasks provided by our lecturer Dr. Ian McLoughlin
-	<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/problems1.PNG" width="310" height="468">
-		<img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/problems2.PNG" width="312" height="468"></p>
+	<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/problems1.PNG" width="365" height="701"></p>
+	<p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/problems2.PNG" width="364" height="703"></p>
 
 ## References
 * [Functional Programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
