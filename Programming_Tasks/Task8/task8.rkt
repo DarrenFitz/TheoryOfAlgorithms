@@ -1,9 +1,13 @@
 #lang racket
+#|
+Darren Fitzpatrick - G00311853
 
+Question 8)
 
-;8. Write a function chse in Racket that takes three lists x, y and z of equal length and
-;   containing only 0’s and 1’s. It should return a list containing the elements of y in
-;   the positions where x is 1 and the elements of z otherwise.
+Write a function chse in Racket that takes three lists x, y and z of equal length and
+containing only 0’s and 1’s. It should return a list containing the elements of y in
+the positions where x is 1 and the elements of z otherwise.
+|#
 
 ;chse function that takes 3 lists
 (define (chse x y z)

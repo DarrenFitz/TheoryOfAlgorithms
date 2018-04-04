@@ -1,8 +1,13 @@
 #lang racket
+#|
+Darren Fitzpatrick - G00311853
 
-;9. Write a function sod2 in Racket that takes three lists x, y and z of equal length and
-;   containing only 0’s and 1’s. It should return a list containing a 1 where the number of
-;   1’s in a given position in x, y and z contains an odd nubmer of 1’s, and 0 otherwise.
+Question 9)
+
+Write a function sod2 in Racket that takes three lists x, y and z of equal length and
+containing only 0’s and 1’s. It should return a list containing a 1 where the number of
+1’s in a given position in x, y and z contains an odd nubmer of 1’s, and 0 otherwise.
+|#
 
 ;function sod2 that takes 3 lists
 (define (sod2 x y z)

@@ -1,7 +1,11 @@
 #lang racket
+#|
+Darren Fitzpatrick - G00311853
 
-;6. Write a function hamming-distance in Racket that takes two lists and returns the
-;   number of positions in which they differ.
+Question 6)
+Write a function hamming-distance in Racket that takes two lists and returns the
+number of positions in which they differ.
+|#
 
 ;Hamming-Distance Function
 ;Used to return number of positions in lists that differ

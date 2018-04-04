@@ -33,6 +33,7 @@ Most computer programming languages support recursion by allowing a function to 
 4. For convenience I made single folder with all tasks 1-10 together called [AllTasks](https://github.com/DarrenFitz/TheoryOfAlgorithms/tree/master/Programming_Tasks/AllTasks).
 
 ## List of tasks provided by our lecturer Dr. Ian McLoughlin
+
 <p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/problems1.PNG" width="465" height="701"></p>
 <p><img src="https://github.com/DarrenFitz/TheoryOfAlgorithms/blob/master/Resources/problems2.PNG" width="469" height="703"></p>
 

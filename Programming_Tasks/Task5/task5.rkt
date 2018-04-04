@@ -1,7 +1,12 @@
 #lang racket
+#|
+Darren Fitzpatrick - G00311853
 
-;5. Write a function hamming-weight in Racket that takes a list l as input and returns
-;   the number of non-zero elements in it.
+Question 5)
+
+Write a function hamming-weight in Racket that takes a list l as input and returns
+the number of non-zero elements in it.
+|#
 
 ;hamming-weight Function
 ;used to return number of non-zero elements in list

@@ -1,9 +1,13 @@
 #lang racket
+#|
+Darren Fitzpatrick - G00311853
 
+Question 7)
 
-;7. Write a function maj in Racket that takes three lists x, y and z of equal length and
-;   containing only 0’s and 1’s. It should return a list containing a 1 where two or more
-;   of x, y and z contain 1’s, and 0 otherwise.
+Write a function maj in Racket that takes three lists x, y and z of equal length and
+containing only 0’s and 1’s. It should return a list containing a 1 where two or more
+of x, y and z contain 1’s, and 0 otherwise.
+|#
 
 ;maj function that takes 3 lists
 (define (maj x y z)
